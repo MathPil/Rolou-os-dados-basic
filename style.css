@@ -1,0 +1,60 @@
+*{
+  background-color: #032152;
+  font-family:"Indie Flower", cursive;
+  color:#fff;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.dice{
+  display: inline-block;
+  text-align: center;
+}
+.dice img{
+  width: 80%;
+}
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 4px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+h2{
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+footer{
+  margin-top: 5%;
+  text-align: center;
+  color: #EEE;
+}
+a{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+}
+a img{
+  width: 2rem;
+  margin-bottom: 8px;
+}
+button{
+  display: flex;
+  padding: 30px;
+  font-size: large;
+  transition-duration: 100ms;
+}
+#botao{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+button:hover{
+  background: #232931;
+  transform: scale(1.2);
+  font-weight: bold;
+}
